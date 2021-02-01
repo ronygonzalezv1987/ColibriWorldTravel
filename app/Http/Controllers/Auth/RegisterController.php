@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace AmericaKingStones\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use AmericaKingStones\User;
+use AmericaKingStones\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\User
+     * @return \AmericaKingStones\User
      */
     protected function create(array $data)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace AmericaKingStones\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,0 +1,11 @@
+//Frontend
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+// Variables
+//@import 'variables';
+@import '../global/app';
+@import '~bootstrap/scss/bootstrap';
+@import 'nav';
+body {
+    background-color: #6d4c4c3a;
+}

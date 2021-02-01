@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -9,8 +9,24 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
-Route::get('/', function () {
-    return view('welcome');
+/*Route::get('/', function () {
+        return view('welcome');
+});
+*/
+//Auth::routes();
+
+//FRONTEND
+
+
+
+Route::name('homepage.')->group(function () {
+    Route::get('/', function () {
+        return view('frontend.homepage.index', [
+            'title' => 'AmericaKingStones |  Retail Stones',
+            'description' => 'Retail granite, marble and quartz',
+            'keywords' => 'americakingstones'
+        ]);
+    })->name('index');
 });
