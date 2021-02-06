@@ -162,18 +162,21 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
         /*
          * Package Service Providers...
          */
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        AmericaKingStones\Providers\AppServiceProvider::class,
+        AmericaKingStones\Providers\AuthServiceProvider::class,
+        // AmericaKingStones\Providers\BroadcastServiceProvider::class,
+        AmericaKingStones\Providers\EventServiceProvider::class,
+        AmericaKingStones\Providers\RouteServiceProvider::class,
+
 
     ],
 
@@ -225,6 +228,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class
 
     ],
 

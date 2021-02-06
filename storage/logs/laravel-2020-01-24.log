@@ -1,0 +1,74 @@
+[2020-01-24 21:09:34] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php:598)
+[stacktrace]
+#0 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(651): Symfony\\Component\\Console\\Application->findNamespace('clear')
+#1 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('clear:all')
+#2 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 D:\\Github_Projects\\ColibriWorldTravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2020-01-24 21:10:55] local.ERROR: There are no commands defined in the "opcache" namespace.
+
+Did you mean this?
+    cache {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"opcache\" namespace.
+
+Did you mean this?
+    cache at D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php:598)
+[stacktrace]
+#0 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(651): Symfony\\Component\\Console\\Application->findNamespace('opcache')
+#1 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('opcache:clear')
+#2 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 D:\\Github_Projects\\ColibriWorldTravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2020-01-24 21:15:12] local.ERROR: Unable to prepare route [api/user] for serialization. Uses Closure. {"exception":"[object] (LogicException(code: 0): Unable to prepare route [api/user] for serialization. Uses Closure. at D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php:917)
+[stacktrace]
+#0 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteCacheCommand.php(62): Illuminate\\Routing\\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\\Foundation\\Console\\RouteCacheCommand->handle()
+#2 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#7 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(1012): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 D:\\Github_Projects\\ColibriWorldTravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 {main}
+"} 
+[2020-01-24 21:15:47] local.ERROR: Unable to prepare route [api/user] for serialization. Uses Closure. {"exception":"[object] (LogicException(code: 0): Unable to prepare route [api/user] for serialization. Uses Closure. at D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php:917)
+[stacktrace]
+#0 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteCacheCommand.php(62): Illuminate\\Routing\\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\\Foundation\\Console\\RouteCacheCommand->handle()
+#2 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#7 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(1012): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 D:\\Github_Projects\\ColibriWorldTravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 {main}
+"} 
+[2020-01-24 21:17:50] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php:598)
+[stacktrace]
+#0 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(651): Symfony\\Component\\Console\\Application->findNamespace('clear')
+#1 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('clear:all')
+#2 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\Github_Projects\\ColibriWorldTravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 D:\\Github_Projects\\ColibriWorldTravel\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
